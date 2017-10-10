@@ -1,0 +1,46 @@
+Chapter Review
+
+1. What are the modules of C++ programs called?
+functions
+
+2. What does the following preprocessor directive do?
+#include <iostream>
+attaches iostream file
+
+3. What does the following statement do?
+using namespace std;
+attaches definitions in the std namespace
+
+4. What statement would you use to print the phrase “Hello, world” and then start a
+new line?
+cout << "Hello, world" << endl;
+
+5. What statement would you use to create an integer variable with the name
+cheeses?
+int cheeses;
+
+6. What statement would you use to assign the value 32 to the variable cheeses?
+cheeses = 32;
+
+7. What statement would you use to read a value from keyboard input into the variable
+cheeses?
+cin >> cheeses;
+
+8. What statement would you use to print “We have X varieties of cheese,” where the
+current value of the cheeses variable replaces X?
+cout << "We have " << cheeses <<" varieties of cheeses,"; 
+
+9. What do the following function prototypes tell you about the functions?
+int froop(double t); // take one argument type double, and return int value
+void rattle(int n); // take one argument type int, and not return any value
+int prune(void); // not take any argument, and return int value
+
+10. When do you not have to use the keyword return when you define a function?
+when main function is defined as void
+
+
+11. Suppose your main() function has the following line:
+cout << “Please enter your PIN: “;
+And suppose the compiler complains that cout is an unknown identifier.What is
+the likely cause of this complaint, and what are three ways to fix the problem?
+not attach iostream file
